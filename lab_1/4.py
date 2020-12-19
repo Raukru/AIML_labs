@@ -15,3 +15,5 @@ def json_to_csv(data):
 
 with open("sales.csv", "w") as write_file:
     write_file.write(json_to_csv(json_data))
+write_file.close()
+read_file.close()
